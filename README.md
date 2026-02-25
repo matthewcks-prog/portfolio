@@ -20,6 +20,7 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 
 ### 2) Codeventure (LMS Platform)
 **What:** Python learning platform with interactive lessons, auto‑graded quizzes/challenges, a browser‑based Python playground, and progress tracking for students and educators.Done in my 1st year of engineering and expanded as I learned more about Django, testing, and deployment.
+
 **Tech:** 
 - Django 4.2 monolith with separate apps for learning modules, assessments, playground, and auth
 - Django templates with responsive HTML/CSS (Bootstrap‑style layout) and vanilla JS for interactive behaviour
@@ -32,7 +33,7 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 - Structured curriculum (learning videos from youtube) with quizzes and coding challenges, all auto‑graded with instant feedback
 - Monaco‑based Python playground so students can run code safely in the browser without local setup
 - Production‑ready setup: environment‑based config, static assets with WhiteNoise, and deployment to Render
-- **Recognition**: Received a commendation letter from Monash University for this project in the FIT1056 unit (https://drive.google.com/file/d/1krWQwxm0iuOw_qYn4SLptuMpsn16l7DQ/view?usp=sharing)
+- **Recognition**: Received a commendation letter from Monash University for this LMS project in the FIT1056 unit [View](https://drive.google.com/file/d/1krWQwxm0iuOw_qYn4SLptuMpsn16l7DQ/view?usp=sharing)
 
 **Impact / what I learned:**
 - Deepened understanding of Django app structure, "models" for data acess layer, "views"for logic layer and "templates" for presentation layer
@@ -47,6 +48,7 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 ---
 ### 3) NotMoodle (FIT2101 — Team LMS)
 **What:** Lightweight Learning Management System built by a 7-person team for Monash FIT2101 (Software Engineering Process and Management). Multi-role access, course/lesson management, classroom tracking, and an AI assistant grounded in course content via RAG (Ollama + pgvector).
+
 **Tech:** Django 5.x, PostgreSQL + pgvector, Ollama (llama3.1, nomic-embed-text), pytest, GitLab CI
 
 **Highlights:**
@@ -58,7 +60,7 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 - **Repo**: [github.com/matthewcks-prog/NotMoodle](https://github.com/matthewcks-prog/NotMoodle)
 - **Case study**: [projects/notMoodle.md](projects/notMoodle.md)
 - **Demo**: [demo_NotMoodle.mp4](https://drive.google.com/file/d/1IEYiaHdESkzElaRnT_lVPxgtUEioPg0w/view?usp=sharing) 
-**Retrospective report**: [Retrospective_report.pdf](https://github.com/matthewcks-prog/NotMoodle/blob/main/Retrospective_report.pdf)
+- **Retrospective report**: [Retrospective_report.pdf](https://github.com/matthewcks-prog/NotMoodle/blob/main/Retrospective_report.pdf)
 
 
 ---
