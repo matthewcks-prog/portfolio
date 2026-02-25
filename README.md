@@ -11,7 +11,7 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 - Security & privacy hygiene (no secrets in repo, least-privilege patterns)
 - Testing + CI quality gates (lint/typecheck/tests)
 
-Links:
+**Links**:
 - Repo: https://github.com/matthewcks-prog/Lock-in
 - Case study: [projects/lock-in.md](projects/lock-in.md)
 - Demo: <link>
@@ -19,20 +19,26 @@ Links:
 ---
 
 ### 2) Codeventure (LMS Platform)
-**What**: Python learning platform with interactive lessons, auto‑graded quizzes/challenges, a browser‑based Python playground, and progress tracking for students and educators.
+**What:** Python learning platform with interactive lessons, auto‑graded quizzes/challenges, a browser‑based Python playground, and progress tracking for students and educators.Done in my 1st year of engineering and expanded as I learned more about Django, testing, and deployment.
 
-**Tech**:
-- Django 4.2 monolith with separate apps for learning modules, assessments, playground, and auth  
-- Django templates, HTML/CSS, responsive (Bootstrap‑style) layout, vanilla JS  
-- PostgreSQL on Render in production, SQLite locally (`DATABASE_URL`, `.env`‑driven settings)  
-- Google OAuth via `django-allauth`  
+**Tech:** 
+- Django 4.2 monolith with separate apps for learning modules, assessments, playground, and auth
+- Django templates with responsive HTML/CSS (Bootstrap‑style layout) and vanilla JS for interactive behaviour
+- PostgreSQL on Render in production, SQLite locally (`DATABASE_URL`, `.env`‑driven settings)
+- Google OAuth with `django-allauth` (OAuth client setup, callback handling, and secure session management)
 - CI with GitHub Actions (`pytest`, `pytest-django`, `manage.py check --deploy`)
+- UX/UI designed in Figma (wireframes and flows, see `assets/design` in the repo)
 
-**Highlights**:
-- Provide learning modules (youtube videos) based on different concepts
-- Structured curriculum with quizzes and coding challenges, all auto‑graded with instant feedback  
-- Monaco‑based Python playground so students can code in the browser without setup to test their understanding
-- Production‑minded setup: environment‑based config, static assets via WhiteNoise, deployment on Render
+**Highlights:**
+- Structured curriculum (learning videos from youtube) with quizzes and coding challenges, all auto‑graded with instant feedback
+- Monaco‑based Python playground so students can run code safely in the browser without local setup
+- Production‑ready setup: environment‑based config, static assets with WhiteNoise, and deployment to Render
+- **Recognition**: Received a commendation letter from Monash University for this project in the FIT1056 unit (https://drive.google.com/file/d/1krWQwxm0iuOw_qYn4SLptuMpsn16l7DQ/view?usp=sharing)
+
+**Impact / what I learned:**
+- Deepened understanding of Django app structure, "models" for data acess layer, "views"for logic layer and "templates" for presentation layer
+- Learned how to design and iterate on UI flows in Figma before coding
+- Got hands‑on experience integrating third‑party OAuth and running tests in CI for every push
 
 **Links**:
 - **Repo**: [github.com/matthewcks-prog/CodeVenture](https://github.com/matthewcks-prog/CodeVenture)
