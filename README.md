@@ -4,16 +4,17 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 
 ### 1) Lock-in (Flagship) - WORK IN PROGRESSS
 **What:** Study-focused browser extension + backend services (notes, auth, AI/chat features).  
-**Tech:** TypeScript, React, Node.js, Postgres/Supabase, GitHub Actions  
+**Tech:** TypeScript, React, Node.js, Postgres/Supabase, GitHub Actions, Microsoft Azure, Sentry.
+
 **Highlights:**
-- Clean modular architecture (low coupling, clear boundaries)
-- Reliability-focused design (validation, error handling, graceful fallbacks)
+- Clean modular architecture (low coupling, clear boundaries enforced by ESlint warnings - max files/function lines, max complecxity, dependency cruiser)
+- Reliability-focused design (unit tests, validation, error handling, graceful fallbacks)
 - Security & privacy hygiene (no secrets in repo, least-privilege patterns)
-- Testing + CI quality gates (lint/typecheck/tests)
+- Testing + CI quality gates (lint/typecheck/tests,github workflows)
 
 **Links**:
 - Repo: https://github.com/matthewcks-prog/Lock-in
-- Case study: [projects/lock-in.md](projects/lock-in.md)
+- Case study: 
 - Demo: <link>
 
 ---
@@ -58,7 +59,7 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 
 **Links**:
 - **Repo**: [github.com/matthewcks-prog/NotMoodle](https://github.com/matthewcks-prog/NotMoodle)
-- **Case study**: [projects/notMoodle.md](projects/notMoodle.md)
+- **Case study**: [projects/notMoodle.md](https://github.com/matthewcks-prog/portfolio/blob/main/projects/notmoodle.md)
 - **Demo**: [demo_NotMoodle.mp4](https://drive.google.com/file/d/1IEYiaHdESkzElaRnT_lVPxgtUEioPg0w/view?usp=sharing) 
 - **Retrospective report**: [Retrospective_report.pdf](https://github.com/matthewcks-prog/NotMoodle/blob/main/Retrospective_report.pdf)
 
