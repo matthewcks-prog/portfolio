@@ -4,7 +4,7 @@
 
 **Status:** Archived (course project) • **Role:** Team (Scrum Master, integrator, AI/QA lead) • **Timeline:** FIT2101 semester
 
-**Links:** [Repo](https://github.com/matthewcks-prog/NotMoodle) • [Demo (mp4)](https://github.com/matthewcks-prog/NotMoodle/blob/main/demo_NotMoodle.mp4) • [Retrospective report (PDF)](https://github.com/matthewcks-prog/NotMoodle/blob/main/Retrospective_report.pdf)
+**Links:** [Repo](https://github.com/matthewcks-prog/NotMoodle) • [Demo (mp4)](https://drive.google.com/file/d/1IEYiaHdESkzElaRnT_lVPxgtUEioPg0w/view?usp=sharing)) • [Retrospective report (PDF)](https://github.com/matthewcks-prog/NotMoodle/blob/main/Retrospective_report.pdf)
 
 ---
 
@@ -120,7 +120,7 @@
 ## Demo
 
 - **Live:** N/A (local deployment)
-- **Video:** [demo_NotMoodle.mp4](../demo_NotMoodle.mp4)
+- **Video:** [demo_NotMoodle.mp4]([../demo_NotMoodle.mp4](https://drive.google.com/file/d/1IEYiaHdESkzElaRnT_lVPxgtUEioPg0w/view?usp=sharing)))
 
 ---
 
