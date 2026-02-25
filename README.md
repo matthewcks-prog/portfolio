@@ -20,7 +20,6 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 
 ### 2) Codeventure (LMS Platform)
 **What:** Python learning platform with interactive lessons, auto‑graded quizzes/challenges, a browser‑based Python playground, and progress tracking for students and educators.Done in my 1st year of engineering and expanded as I learned more about Django, testing, and deployment.
-
 **Tech:** 
 - Django 4.2 monolith with separate apps for learning modules, assessments, playground, and auth
 - Django templates with responsive HTML/CSS (Bootstrap‑style layout) and vanilla JS for interactive behaviour
@@ -46,8 +45,24 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 - **Feature overview (PDF)**: [Main features implemented for CodeVenture](https://github.com/matthewcks-prog/CodeVenture/blob/main/Main%20features%20implemented%20for%20Code%20Venture.pdf)
 
 ---
+### 3) NotMoodle (FIT2101 — Team LMS)
+**What:** Lightweight Learning Management System built by a 7-person team for Monash FIT2101 (Software Engineering Process and Management). Multi-role access, course/lesson management, classroom tracking, and an AI assistant grounded in course content via RAG (Ollama + pgvector).
+**Tech:** Django 5.x, PostgreSQL + pgvector, Ollama (llama3.1, nomic-embed-text), pytest, GitLab CI
 
-### 3) Data visualisation projects
+**Highlights:**
+- **Process-first:** Scrum-inspired workflow, Jira task/time tracking, sprint planning, retrospectives, Definition of Done
+- **My role:** Scrum Master, integrator, AI assistant design/implementation, test infrastructure, RAG pipeline (chunking, embeddings, vector similarity), rate-limited chat API, Git feature-branch workflow, merge requests, code reviews, CI quality gates
+- Delivering a *fully functional web app while working alongside a team 
+
+**Links**:
+- **Repo**: [github.com/matthewcks-prog/NotMoodle](https://github.com/matthewcks-prog/NotMoodle)
+- **Case study**: [projects/notMoodle.md](projects/notMoodle.md)
+- **Demo**: [demo_NotMoodle.mp4](https://drive.google.com/file/d/1IEYiaHdESkzElaRnT_lVPxgtUEioPg0w/view?usp=sharing) 
+**Retrospective report**: [Retrospective_report.pdf](https://github.com/matthewcks-prog/NotMoodle/blob/main/Retrospective_report.pdf)
+
+
+---
+### 4) Data visualisation projects
 
 **What**: Two storytelling dashboards:  
 - **Sun & Skin — UV vs Melanoma in Australia** (Vega-Lite, browser-based)  
