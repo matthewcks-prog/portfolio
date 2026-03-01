@@ -2,20 +2,22 @@
 I build pragmatic, production-minded software: cleanly architected, well-tested, and shaped around real user needs. This page highlights a few projects that show how I think about reliability, data, and developer experience end to end.
 ## Featured projects
 
-### 1) Lock-in (Flagship) - WORK IN PROGRESSS
-**What:** Study-focused browser extension + backend services (notes, auth, AI/chat features).  
-**Tech:** TypeScript, React, Node.js, Postgres/Supabase, GitHub Actions, Microsoft Azure, Sentry.
+### 1) Lock-in (Flagship)
+**What:** In-page study assistant Chrome extension + backend. Keeps notes, lecture transcripts, AI help, tasks, and revision tools in one place—on the page you're viewing. Consent-first: only uses content you explicitly select; LMS credentials never leave the browser.
+
+**Tech:** TypeScript, React, Lexical, Node.js, Express, Supabase (Postgres + Storage + Auth), pgvector, Docker, Azure Container Apps, GitHub Actions (OIDC), Trivy, Sentry.
 
 **Highlights:**
-- Clean modular architecture (low coupling, clear boundaries enforced by ESlint warnings - max files/function lines, max complecxity, dependency cruiser)
-- Reliability-focused design (unit tests, validation, error handling, graceful fallbacks)
-- Security & privacy hygiene (no secrets in repo, least-privilege patterns)
-- Testing + CI quality gates (lint/typecheck/tests,github workflows)
+- Layered architecture (Routes → Controllers → Services → Repos; no cross-layer imports, enforced by dependency-cruiser)
+- Code quality guardrails (file/function size limits, cyclomatic complexity, Zod validation at boundaries)
+- Reliability (unit tests, idempotency, timeouts, graceful fallbacks)
+- Security & privacy (secrets only on backend, RLS on all tables, transcript URL redaction, 90-day TTL)
+- CI quality gates (format, lint, typecheck, tests, coverage, build, Trivy on CRITICAL/HIGH)
 
-**Links**:
-- Repo: https://github.com/matthewcks-prog/Lock-in
-- Case study: 
-- Demo: <link>
+**Links:**
+- **Repo**: https://github.com/matthewcks-prog/Lock-in
+- **Case study**: [Lock-in.md](https://github.com/matthewcks-prog/portfolio/blob/main/projects/lock-in.md)
+- **Demo**:
 
 ---
 
@@ -45,6 +47,7 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 - **Repo**: [github.com/matthewcks-prog/CodeVenture](https://github.com/matthewcks-prog/CodeVenture)
 - **Live**: https://codeventure-ez4m.onrender.com
 - **Feature overview (PDF)**: [Main features implemented for CodeVenture](https://github.com/matthewcks-prog/CodeVenture/blob/main/Main%20features%20implemented%20for%20Code%20Venture.pdf)
+- **Case study**: [codeventure.md](https://github.com/matthewcks-prog/portfolio/blob/main/projects/codeventure.md)
 
 ---
 ### 3) NotMoodle (FIT2101 — Team LMS)
@@ -59,7 +62,7 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 
 **Links**:
 - **Repo**: [github.com/matthewcks-prog/NotMoodle](https://github.com/matthewcks-prog/NotMoodle)
-- **Case study**: [projects/notMoodle.md](https://github.com/matthewcks-prog/portfolio/blob/main/projects/notmoodle.md)
+- **Case study**: [projects/notMoodle.md](https://github.com/matthewcks-prog/portfolio/projects/notmoodle.md)
 - **Demo**: [demo_NotMoodle.mp4](https://drive.google.com/file/d/1IEYiaHdESkzElaRnT_lVPxgtUEioPg0w/view?usp=sharing) 
 - **Retrospective report**: [Retrospective_report.pdf](https://github.com/matthewcks-prog/NotMoodle/blob/main/Retrospective_report.pdf)
 
@@ -87,8 +90,11 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 
 **Links**:
 - **Vega-Lite repo**: <https://github.com/matthewcks-prog/data-viz-vega-lite>  
-- **Vega-Lite live demo**: <https://matthewcks-prog.github.io/data-viz-vega-lite/>  
+- **Vega-Lite live demo**: <https://matthewcks-prog.github.io/data-viz-vega-lite/>
+- **Case study**: [projects/data-viz-vega-lite.md](https://github.com/matthewcks-prog/portfolio/blob/main/projects/data-viz-vega-lite.md)
 - **Tableau dashboard**: <https://public.tableau.com/app/profile/matthew.chung.kai.shing/viz/DataVisualisation1_17570904026250/Datavisualization1dashboard?publish=yes>
+- **Case study**: [projects/data-viz-vega-lite.md](https://github.com/matthewcks-prog/portfolio/blob/main/projects/data-viz-vega-lite.md)
+
 
 ## Coursework highlights (selected)
 Artifact: https://github.com/matthewcks-prog/Lock-in
