@@ -93,7 +93,7 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 - **Vega-Lite live demo**: <https://matthewcks-prog.github.io/data-viz-vega-lite/>
 - **Case study**: [projects/data-viz-vega-lite.md](https://github.com/matthewcks-prog/portfolio/blob/main/projects/data-viz-vega-lite.md)
 - **Tableau dashboard**: <https://public.tableau.com/app/profile/matthew.chung.kai.shing/viz/DataVisualisation1_17570904026250/Datavisualization1dashboard?publish=yes>
-- **Case study**: [projects/data-viz-vega-lite.md](https://github.com/matthewcks-prog/portfolio/blob/main/projects/data-viz-vega-lite.md)
+- **Case study**: [projects/data-viz-vega-tableau.md](https://github.com/matthewcks-prog/portfolio/blob/main/projects/data-viz-tableau.md)
 
 
 ## Coursework highlights (selected)
