@@ -1,9 +1,11 @@
 # Lock-in — Case Study
 
 > **One-liner:** AI-powered Chrome extension that helps students learn more efficiently through contextual explanations, rich notes, and lecture transcript extraction.  
-> **Status:** Active • **Role:** Solo • **Timeline:** 2025–2026  
-> **Links:** [Repo](https://github.com/matthewcks-prog/Lock-in) • [Docs](https://github.com/matthewcks-prog/Lock-in/tree/main/docs)
-
+> **Status:** Active • **Role:** Solo • **Timeline:** 2025–2026   
+> **Links:**
+> - [demo_video_lock-in.mp4](https://drive.google.com/file/d/1BxJfHWy5cRs7nm8L6mrWar0dgdRflV-M/view?usp=sharing)
+> - [Repo](https://github.com/matthewcks-prog/Lock-in)
+> - [Docs](https://github.com/matthewcks-prog/Lock-in/tree/main/docs)
 ---
 
 ## Intro
