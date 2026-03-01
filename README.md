@@ -16,8 +16,8 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 
 **Links:**
 - **Repo**: https://github.com/matthewcks-prog/Lock-in
+- **Demo**: [demo_video_lock-in.mp4](https://drive.google.com/file/d/1BxJfHWy5cRs7nm8L6mrWar0dgdRflV-M/view?usp=sharing)
 - **Case study**: [Lock-in.md](https://github.com/matthewcks-prog/portfolio/blob/main/projects/lock-in.md)
-- **Demo**:
 
 ---
 
