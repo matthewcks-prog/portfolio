@@ -2,7 +2,7 @@
 I build pragmatic, production-minded software: cleanly architected, well-tested, and shaped around real user needs. This page highlights a few projects that show how I think about reliability, data, and developer experience end to end.
 ## Featured projects
 
-### 1) Lock-in (Flagship)
+### 1) Lock-in 
 **What:** In-page study assistant Chrome extension + backend. Keeps notes, lecture transcripts, AI help, tasks, and revision tools in one place—on the page you're viewing. Consent-first: only uses content you explicitly select; LMS credentials never leave the browser.
 
 **Tech:** TypeScript, React, Lexical, Node.js, Express, Supabase (Postgres + Storage + Auth), pgvector, Docker, Azure Container Apps, GitHub Actions (OIDC), Trivy, Sentry.
@@ -18,10 +18,30 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 - **Repo**: https://github.com/matthewcks-prog/Lock-in
 - **Demo**: [demo_video_lock-in.mp4](https://drive.google.com/file/d/1BxJfHWy5cRs7nm8L6mrWar0dgdRflV-M/view?usp=sharing)
 - **Case study**: [Lock-in.md](https://github.com/matthewcks-prog/portfolio/blob/main/projects/lock-in.md)
-
 ---
+### 2) mini-fabric-lab
 
-### 2) Codeventure (LMS Platform)
+**What:** Fully containerized, reproducible spine-leaf network fabric lab built with Containerlab and FRRouting. Models an OSPF underlay, iBGP overlay with route reflectors, and an eBGP edge router with policy control and automated verification.
+
+**Tech:** Containerlab, FRRouting, OSPF, iBGP, eBGP, Python, Docker, Make
+
+**Highlights:**
+- Topology-as-code with a single declarative lab definition
+- Configs-as-code with version-controlled FRR configs
+- OSPF underlay for loopback reachability and stable BGP peering
+- iBGP overlay using route reflectors for scalable session design
+- eBGP edge peering with default-route injection and prefix filtering
+- Python healthcheck that validates container state, adjacencies, BGP sessions, routing entries, and end-to-end connectivity
+- Failure testing showing expected behaviour during link loss and recovery
+
+**Why it matters:**
+This project demonstrates systems thinking beyond application code: protocol behaviour, routing design, policy control, reproducibility, automated verification, and troubleshooting discipline.
+
+**Links:**
+- **Repo**: [mini-fabric-lab](https://github.com/matthewcks-prog/mini-fabric-lab)
+- **Case study**: [projects/mini-fabric-lab.md](https://github.com/matthewcks-prog/portfolio/blob/main/projects/mini-fabric-lab.md)
+---
+### 3) Codeventure (LMS Platform)
 **What:** Python learning platform with interactive lessons, auto‑graded quizzes/challenges, a browser‑based Python playground, and progress tracking for students and educators.Done in my 1st year of engineering and expanded as I learned more about Django, testing, and deployment.
 
 **Tech:** 
@@ -48,9 +68,8 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 - **Live**: https://codeventure-ez4m.onrender.com
 - **Feature overview (PDF)**: [Main features implemented for CodeVenture](https://github.com/matthewcks-prog/CodeVenture/blob/main/Main%20features%20implemented%20for%20Code%20Venture.pdf)
 - **Case study**: [codeventure.md](https://github.com/matthewcks-prog/portfolio/blob/main/projects/codeventure.md)
-
 ---
-### 3) NotMoodle (FIT2101 — Team LMS)
+### 4) NotMoodle (FIT2101 — Team LMS)
 **What:** Lightweight Learning Management System built by a 7-person team for Monash FIT2101 (Software Engineering Process and Management). Multi-role access, course/lesson management, classroom tracking, and an AI assistant grounded in course content via RAG (Ollama + pgvector).
 
 **Tech:** Django 5.x, PostgreSQL + pgvector, Ollama (llama3.1, nomic-embed-text), pytest, GitLab CI
@@ -65,10 +84,8 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 - **Case study**: [projects/notMoodle.md](https://github.com/matthewcks-prog/portfolio/projects/notmoodle.md)
 - **Demo**: [demo_NotMoodle.mp4](https://drive.google.com/file/d/1IEYiaHdESkzElaRnT_lVPxgtUEioPg0w/view?usp=sharing) 
 - **Retrospective report**: [Retrospective_report.pdf](https://github.com/matthewcks-prog/NotMoodle/blob/main/Retrospective_report.pdf)
-
-
 ---
-### 4) Data visualisation projects
+### 5) Data visualisation projects
 
 **What**: Two storytelling dashboards:  
 - **Sun & Skin — UV vs Melanoma in Australia** (Vega-Lite, browser-based)  
@@ -97,7 +114,6 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 
 
 ## Coursework highlights (selected)
-Artifact: https://github.com/matthewcks-prog/Lock-in
 - **Testing & Quality** – property-based testing, test design, and CI  
   - Focus: unit/integration testing, coverage, regression prevention  
   - Tech: Python/`pytest`, GitHub Actions  
