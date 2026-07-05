@@ -3,7 +3,7 @@
 > **One-liner:** Local-first Streamlit dashboard for AI-assisted satellite damage triage using xBD/xView2 pre-disaster and post-disaster imagery.  
 > **Role:** Solo developer  
 > **Focus:** Python, computer vision, geospatial data processing, Streamlit dashboards, ML evaluation, responsible AI  
-> **Links:** [Project repository](https://github.com/matthewchungkaishing/DisasterSight)
+> **Links:** [Project repository](https://github.com/matthewchungkaishing/DisasterSight) · [Dashboard preview](https://github.com/matthewchungkaishing/DisasterSight#dashboard-preview)
 
 ---
 
@@ -12,6 +12,18 @@
 DisasterSight is an academic decision-support prototype for reviewing building-level damage after disasters. It uses xBD/xView2 pre-disaster and post-disaster satellite imagery, xBD building polygons, and a paired-crop damage classifier to surface scene summaries, severity counts, confidence scores, review flags, overlays, and evaluation metrics in a Streamlit dashboard.
 
 The project is intentionally scoped as a local-first MVP. It does not claim to be an operational emergency-response system, and it keeps human review central to the workflow.
+
+---
+
+## Dashboard preview
+
+The dashboard can now be reviewed through browser-captured screenshots generated from bundled demo fixtures, without requiring reviewers to run Streamlit locally first.
+
+- [Dashboard overview](https://github.com/matthewchungkaishing/DisasterSight/blob/main/docs/screenshots/dashboard-overview.png)
+- [Map Explorer](https://github.com/matthewchungkaishing/DisasterSight/blob/main/docs/screenshots/map-explorer.png)
+- [Analytics](https://github.com/matthewchungkaishing/DisasterSight/blob/main/docs/screenshots/analytics.png)
+
+These previews make the project easier to scan while still preserving the local-first architecture and fixture-backed development workflow.
 
 ---
 
@@ -103,13 +115,13 @@ DisasterSight is designed as an academic prototype and decision-support tool. Th
 
 ## Current access status
 
-No public hosted dashboard URL is documented in the repository. The dashboard is accessible locally with:
+The dashboard is not publicly deployed as a hosted web app. Instead, reviewers can inspect the browser-captured dashboard screenshots in the repository README, or run the Streamlit app locally for an interactive review:
 
 ```powershell
 streamlit run src/dashboard/app.py
 ```
 
-The README also keeps cloud deployment out of scope for the current MVP, so I am not adding a fake live-site link.
+The README keeps cloud deployment out of scope for the current MVP, so this case study links to preview screenshots rather than presenting a fake live-site link.
 
 ---
 
