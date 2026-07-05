@@ -3,7 +3,7 @@
 > **One-liner:** Java 25 Swing board-game implementation built around clean object-oriented design, layered architecture, and testable game rules.  
 > **Role:** Solo developer  
 > **Focus:** OOP, SOLID principles, domain modelling, design patterns, testing, software architecture  
-> **Links:** [Project repository](https://github.com/matthewcks-prog/Ticket-to-Ride-Game) · [Architecture guide](https://github.com/matthewcks-prog/Ticket-to-Ride-Game/blob/docs/architecture-and-rules-record/architecture_guide.md) · [Rules spec](https://github.com/matthewcks-prog/Ticket-to-Ride-Game/blob/docs/architecture-and-rules-record/game_rules.md)
+> **Links:** [Project repository](https://github.com/matthewcks-prog/Ticket-to-Ride-Game) · [Demo video](https://drive.google.com/file/d/16gYKUoiqWr433hspgT5yW5bvSiqttjQ8/view?usp=drive_link) · [Architecture guide](https://github.com/matthewcks-prog/Ticket-to-Ride-Game/blob/docs/architecture-and-rules-record/architecture_guide.md) · [Rules spec](https://github.com/matthewcks-prog/Ticket-to-Ride-Game/blob/docs/architecture-and-rules-record/game_rules.md)
 
 ---
 
@@ -12,6 +12,14 @@
 This is a Java desktop board-game project built for a software architecture and design unit. The main goal was not only to make the game playable, but to model a rules-heavy system in a way that stays maintainable, testable, and easy to reason about.
 
 The project uses a layered structure where the domain owns the rules, the application layer coordinates use cases, infrastructure creates setup data and randomness, and Swing focuses on rendering and input.
+
+---
+
+## Demo
+
+A recorded walkthrough is available here: [Ticket_to_Ride_Sprint3_implementation.mp4](https://drive.google.com/file/d/16gYKUoiqWr433hspgT5yW5bvSiqttjQ8/view?usp=drive_link).
+
+The demo shows the integrated Swing flow and helps reviewers quickly understand the gameplay, UI, and implemented Sprint 3 features without needing to build the project locally first.
 
 ---
 
@@ -145,7 +153,7 @@ This project reinforced that UI code should not be the centre of the architectur
 
 ## Next improvements
 
-- Add screenshots or a short demo GIF to make the repository easier to scan visually.
+- Add screenshots to make the repository easier to scan visually.
 - Add a CI badge once the workflow is stable and public.
 - Add a compact architecture diagram image for the README.
 - Expand automated smoke coverage around the full Swing workflow where practical.

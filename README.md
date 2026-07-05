@@ -61,7 +61,7 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 - Architecture boundary tests preventing Swing/AWT imports in non-UI layers
 - 106 automated tests, Maven `verify`, Google Java Style checks, Javadoc generation, ADRs
 
-**Links:** [Repo](https://github.com/matthewcks-prog/Ticket-to-Ride-Game) · [Case study](projects/ticket-to-ride-game.md)
+**Links:** [Repo](https://github.com/matthewcks-prog/Ticket-to-Ride-Game) · [Demo video](https://drive.google.com/file/d/16gYKUoiqWr433hspgT5yW5bvSiqttjQ8/view?usp=drive_link) · [Case study](projects/ticket-to-ride-game.md)
 
 ---
 
