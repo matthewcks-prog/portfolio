@@ -6,6 +6,7 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 
 - **Software architecture:** layered design, domain modelling, SOLID principles, design patterns, ADRs
 - **Full-stack development:** TypeScript, React, Node.js, Express, Django, PostgreSQL, Supabase
+- **AI, data and ML:** Streamlit, PyTorch, scikit-learn, pandas, NumPy, geospatial/image-processing pipelines
 - **Quality and reliability:** unit tests, CI, validation, error handling, security-minded defaults
 - **Systems and data:** networking labs, Docker, cloud deployment, ETL, visual analytics
 
@@ -28,7 +29,25 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 
 ---
 
-### 2) TTR London — Java OOP architecture project
+### 2) DisasterSight
+
+**What:** Local-first Streamlit dashboard for AI-assisted satellite damage triage using xBD/xView2 pre-disaster and post-disaster imagery. It pairs scenes, extracts building crops from xBD polygons, trains/evaluates a baseline damage classifier, and displays cached predictions for human review.
+
+**Tech:** Python, Streamlit, PyTorch, TorchVision, scikit-learn, pandas, NumPy, OpenCV, GeoPandas, Shapely, Rasterio, Matplotlib, Ruff, mypy.
+
+**Highlights:**
+- xBD/xView2 scene discovery, pre/post image pairing, annotation parsing, and event-aware train/validation/test manifests
+- Paired building-crop extraction with manifest validation and QA contact-sheet generation
+- Baseline paired-crop classifier training, evaluation, cached predictions, scene summaries, metrics, and confusion matrices
+- Streamlit dashboard with Dashboard, Map Explorer, and Analytics pages
+- Pure artifact-resolver layer decoupled from Streamlit for testability and fixture fallback for offline development
+- Responsible-AI framing: academic decision support only, with confidence scores and human-review flags
+
+**Links:** [Repo](https://github.com/matthewchungkaishing/DisasterSight) · [Case study](projects/disastersight.md)
+
+---
+
+### 3) TTR London — Java OOP architecture project
 
 **What:** Java Swing desktop board-game implementation designed around clean object-oriented architecture. Game rules live outside Swing, player actions enter through application commands, and UI panels render immutable snapshots.
 
@@ -46,7 +65,7 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 
 ---
 
-### 3) mini-fabric-lab
+### 4) mini-fabric-lab
 
 **What:** Fully containerized, reproducible spine-leaf network fabric lab built with Containerlab and FRRouting. Models an OSPF underlay, iBGP overlay with route reflectors, and an eBGP edge router with policy control and automated verification.
 
@@ -67,7 +86,7 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 
 ---
 
-### 4) CodeVenture — LMS platform
+### 5) CodeVenture — LMS platform
 
 **What:** Python learning platform with interactive lessons, auto-graded quizzes/challenges, a browser-based Python playground, and progress tracking for students and educators. Built in my first year of engineering and expanded as I learned more about Django, testing, and deployment.
 
@@ -86,7 +105,7 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 
 ---
 
-### 5) NotMoodle — team LMS
+### 6) NotMoodle — team LMS
 
 **What:** Lightweight Learning Management System built by a 7-person team for Monash FIT2101. Supports multi-role access, course/lesson management, classroom tracking, and an AI assistant grounded in course content through RAG.
 
@@ -102,7 +121,7 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 
 ---
 
-### 6) Data visualisation projects
+### 7) Data visualisation projects
 
 **What:** Two storytelling dashboards:
 - **Sun & Skin — UV vs Melanoma in Australia** using Vega-Lite
