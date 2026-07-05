@@ -40,10 +40,11 @@ I build pragmatic, production-minded software: cleanly architected, well-tested,
 - Paired building-crop extraction with manifest validation and QA contact-sheet generation
 - Baseline paired-crop classifier training, evaluation, cached predictions, scene summaries, metrics, and confusion matrices
 - Streamlit dashboard with Dashboard, Map Explorer, and Analytics pages
+- Browser-captured dashboard preview screenshots from bundled demo fixtures, so reviewers can inspect the UI without local setup
 - Pure artifact-resolver layer decoupled from Streamlit for testability and fixture fallback for offline development
 - Responsible-AI framing: academic decision support only, with confidence scores and human-review flags
 
-**Links:** [Repo](https://github.com/matthewchungkaishing/DisasterSight) · [Case study](projects/disastersight.md)
+**Links:** [Repo](https://github.com/matthewchungkaishing/DisasterSight) · [Preview screenshots](https://github.com/matthewchungkaishing/DisasterSight#dashboard-preview) · [Case study](projects/disastersight.md)
 
 ---
 
